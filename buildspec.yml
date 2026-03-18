@@ -2,7 +2,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 20
+      nodejs: 22
     commands:
       - npm install -g @angular/cli@17
   pre_build:
@@ -15,4 +15,3 @@ artifacts:
   base-directory: dist/my-angular-project
   files:
     - '**/*'
-    
